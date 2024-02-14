@@ -1,0 +1,200 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Sans';
+    box-sizing: border-box;
+}
+
+#but
+{
+    color: red;
+    font: 700;
+}
+
+#background
+{
+    background-color: rgb(89, 165, 131);
+}
+#background2
+{
+    background-color: rgb(30, 0, 58);
+    height: 80%;
+    width: 55%;
+    margin-right: 10%;
+    margin-left: 20%;
+    padding: 10%;
+}
+
+#hourse
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+#Minutes
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+#Second
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+#clockid
+{
+   padding-top: 5%;
+   font-size: large;
+  
+}
+
+.hurrry
+{
+  
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+}
+
+#buttontext
+{
+    
+    margin-top: 40px;
+    background-color: yellow;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+#btn
+{
+    margin-left: 10px;
+    background-color: white;
+}
+.btnhover:hover
+{
+    background-color: red;
+    color: black;
+    font-weight: 700;
+}
+
+.fifthsection
+{
+    background-color: yellow;
+    margin: 10%;
+    padding: 10%;
+    justify-content: space-evenly;
+    color: black;
+    border-radius: 20px;
+}
+
+#righsection
+{
+    font-size: x-large;
+   font-weight: 700;
+}
+
+.register
+{
+    margin-top: 50px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 3px;
+}
+
+
+/* Writing media query .. from here .... */
+
+
+@media screen and (max-width: 1000px)
+{
+    
+    .rightsec
+    {
+        margin-left: 20px;
+    }
+    
+
+    .firstherosection
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fullsection p
+    {
+        padding-left: 10%;
+    }
+    .secondmain 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thirdherosection
+    {
+        display: flex;
+        flex-direction: column;
+       justify-content: space-between;
+    }
+
+    .ptag
+    {
+        margin-bottom: 30px;
+        
+    }
+
+    #but
+    {
+        padding-left: 10%;
+    }
+
+    #but1
+    {
+        padding-left:10%;
+        padding-top: 10px ;
+    }
+
+    #buttontext
+    {
+        font-size:small;
+        padding:4px;
+        margin-left: 20%;
+    }
+    .fifthpara
+    {
+        margin-bottom: 10px;
+    }
+
+    .fifthsection
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 600px)
+{
+    
+        .lorem 
+        {
+            visibility: hidden;
+        }
+       
+
+    
+}
